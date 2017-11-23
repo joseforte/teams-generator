@@ -1,0 +1,4 @@
+#! /bin/sh
+
+docker run -it -e NODE_ENV=development -p 3005-3006:3000-3001 -v $PWD:/srv/teams-generator teams-generator bash
+
